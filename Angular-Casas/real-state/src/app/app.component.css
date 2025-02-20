@@ -10,3 +10,13 @@
   .content {
     padding: var(--content-padding);
   }
+
+  #header {
+    display: inline;
+  }
+
+  #login {
+    padding-left: 20px;
+    text-decoration: none;
+    color: var(--primary-color);
+  }
