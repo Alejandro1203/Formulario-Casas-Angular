@@ -37,7 +37,7 @@ export class FormularioComponent {
       lastName: ['', [Validators.required, Validators.pattern("^[a-zA-Z0-9]*$")]], 
       age: [[Validators.required, Validators.pattern("^[0-9]*$"), Validators.min(17)]],
       email: ['', [Validators.required, Validators.email]],
-      conditions: [false, [Validators.required]]
+      conditions: [false, [Validators.requiredTrue]]
     });
   }
 
